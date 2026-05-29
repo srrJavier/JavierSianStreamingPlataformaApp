@@ -1,13 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
 package org.javiersian.model.dao;
 
-/**
- *
- * @author javie
- */
-public interface EstudiosCineDAO {
-    
+import org.javiersian.model.EstudiosCine;
+
+public interface EstudiosCineDAO extends CRUD<EstudiosCine, Integer> {
+ 
 }
